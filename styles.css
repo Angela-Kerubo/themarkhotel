@@ -1,0 +1,517 @@
+/*Hotel.html*/
+.container {
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 60px;
+  padding-top: 20px;
+  font-family: jumeirah-font2;
+  width: 90%;
+}
+#booking-form {
+  border: 0;
+  margin: 30px;
+}
+.column-container {
+  border: 1px solid #434343;
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.column-container > .form-group {
+  margin-left: 10px;
+  width: calc(50% - 10px);
+}
+h1 {
+  color: #000;
+  font-family: jumeirah-font2;
+  font-size: 1.5vw;
+  margin-left: 28px;
+}
+h2 {
+  color: #636363;
+  font-family: jumeirah-font2;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+h5 {
+  font-family: jumeirah-font2;
+  font-style: oblique;
+  font-weight: 300px;
+  margin-left: 10px;
+}
+.form-group {
+  margin-bottom: 30px;
+}
+a.nav-link {
+  background: transparent;
+  border: 0;
+  color: #6b6b6b;
+  font-family: jumeirah-font2;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  text-transform: uppercase;
+}
+a.dropdown-item {
+  background: transparent;
+  color: #6b6b6b;
+  font-family: jumeirah-font2;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+label {
+  color: #988558;
+  display: block;
+  font-family: jumeirah-font2;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="month"],
+select {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: #363636;
+  margin-bottom: 12px;
+  margin-left: 15px;
+  padding: 15px;
+  width: 80%;
+}
+#prefix {
+  font-family: jumeirah-font2;
+  font-size: 15px;
+  margin-left: 15px;
+}
+#room-type {
+  font-family: jumeirah-font2;
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+#amenities {
+  font-family: jumeirah-font2;
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+#payment-method {
+  font-family: jumeirah-font2;
+  font-size: 15px;
+  margin-left: 15px;
+}
+textarea {
+  background-color: transparent;
+  border: 1px solid #434343;
+  border-radius: 5px;
+  color: #000;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 90%;
+}
+select option {
+  color: #000;
+  font-family: jumeirah-font2;
+  font-size: 15px;
+}
+.section img {
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  margin-top: 5px;
+  width: 100%;
+}
+::placeholder {
+  color: #363636;
+  font-family: jumeirah-font2;
+  font-size: 15px;
+  margin: 0;
+}
+.card-image-container {
+  display: flex;
+  height: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  width: 40px;
+}
+.card-image-container img {
+  border: 0;
+  border-radius: 0;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 0;
+  width: 50px;
+}
+input[type="text"][disabled],
+input[type="number"][disabled],
+input[type="date"][disabled],
+input[type="tel"][disabled],
+input[type="email"][disabled],
+select[disabled] {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+
+/*Sign-in.html*/
+.form-box {
+  border: 1px solid #434343;
+  border-radius: 15px;
+  justify-content: left;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-top: 95px;
+  padding-top: 40px;
+  width: 600px;
+}
+.form-box h1 {
+  color: #434343;
+  font-family: jumeirah-font2;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+}
+.input-field {
+  border: 1px solid #636363;
+}
+.input-field i {
+  color: #999;
+  margin-left: 15px;
+}
+#nameField,
+#email,
+#password {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  margin: 15px 0;
+  margin-left: 30px;
+  max-height: 65px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  width: 90%;
+  font-size: 12px;
+}
+form p {
+  color: #636363;
+  font-size: 10px;
+  text-align: left;
+}
+form p a {
+  color: #000fff;
+  font-size: 12px;
+  margin-left: 35%;
+  text-decoration: underline;
+}
+.btn-field {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.btn-field button {
+  background: #636363;
+  border: 1px solid #636363;
+  border-radius: 20px;
+  color: #fff;
+  font-family: jumeirah-font2;
+  flex-basis: 48%;
+  height: 40px;
+  margin-left: 15px;
+  outline: 0;
+  transition: background 1s;
+}
+.input-grp {
+  height: 280px;
+}
+.btn-field button.disable {
+  background: #eaeaea;
+  color: #555;
+}
+
+/*Rooms.html*/
+.body {
+  background-color: #eaeaea;
+  margin-top: 85px;
+  font-family: jumeirah-font2;
+}
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+  width: 99%;
+}
+.room {
+  background-color: lightgray;
+  border: 1px solid #000;
+  border-radius: 15px;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 50px;
+  transition: all 0.5s ease;
+  width: 400px;
+}
+.room:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.room-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+.room-description {
+  color: #000;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-family: jumeirah-font2;
+}
+.room-price {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.room-image {
+  border: 1px solid #6b6b6b;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 1em;
+  vertical-align: baseline;
+  width: 100%;
+  height: 200px;
+}
+.room button a {
+  color: #fff;
+  font-family: jumeirah-font2;
+  font-size: 1.5vw;
+  letter-spacing: 0.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.room button {
+  border: 1px solid #000;
+}
+/*Homepage*/
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+}
+
+/* Global styles */
+body {
+  font-family: jumeirah-font2;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #edeade;
+}
+.btn {
+  letter-spacing: 0.25em;
+  font-size: 2vw;
+  font-family: jumeirah-font2;
+}
+
+/* Header styles */
+#hotel-header {
+  background-image: url("https://digital.ihg.com/is/image/ihg/independent--sphc--vienna-7550939683-3x2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 220px 30px;
+  text-align: right;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.hotel-header-content {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 3vw;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.hotel-header-content h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: jumeirah-font2;
+}
+.hotel-header-content a {
+  padding: 15px 40px;
+  font-size: 20px;
+}
+/* About section styles */
+#hotel-about {
+  background-color: lightgrey;
+  padding: 80px 0;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+#hotel-about h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+/* Amenities section styles */
+#hotel-amenities {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  padding-bottom: 50px;
+}
+
+#hotel-amenities h2 {
+  font-size: 50px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.hotel-container1 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotel-amenity {
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hotel-amenity img {
+  width: 95%;
+  height: auto;
+}
+
+/* Contact section styles */
+#hotel-contact {
+  padding: 70px 0;
+  text-align: left;
+  background-color: lightgray;
+  padding-left: 75px;
+}
+
+#hotel-contact h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.8s;
+}
+.layer:hover {
+  background: transparent;
+}
+.layer h3 {
+  width: 90%;
+  color: black;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.8s;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 3vw;
+  font-weight: 600;
+}
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #edeade;
+  color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+/*FAQs*/
+
+.faq-container h2 {
+  font-size: 60px;
+  font-family: jumeirah-font2;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.faq-container {
+  max-width: 100%;
+  height: 550px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.faq {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: gray;
+  border-radius: 10px;
+}
+.faq-question p {
+  margin: 5px;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.faq-answer p {
+  margin: 5px;
+  padding: 10px;
+  font-size: large;
+  font-family: jumeirah-font2;
+  color: #000;
+  background: lightgray;
+  border-radius: 10px;
+  text-align: center;
+}
+.faq:hover {
+  cursor: pointer;
+}
+.faq-answer {
+  display: none;
+}
+.faq.active .faq-answer {
+  display: block;
+}
